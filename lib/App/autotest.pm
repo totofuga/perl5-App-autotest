@@ -16,7 +16,6 @@ use App::autotest::Test::Runner;
 use App::autotest::Test::Runner::Result::History;
 
 has test_directory => ( is => 'rw', isa => 'Str', default => 't' );
-has lib_directory  => ( is => 'rw', isa => 'Str', default => 'lib' );
 
 has watcher => (
     is      => 'rw',
